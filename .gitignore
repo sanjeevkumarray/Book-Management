@@ -1,0 +1,55 @@
+# Node modules (React app)
+client/node_modules/
+client/build/
+client/.env
+
+# Virtual environment (Python)
+env/
+venv/
+
+# Python bytecode files
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django specific
+api/*.log
+api/*.pot
+api/*.pyc
+api/*.pyo
+api/*.pyd
+api/*.sqlite3
+api/db.sqlite3
+api/instance/
+api/.env
+
+# Django migrations
+api/*/migrations/
+api/*/migrations/__pycache__/
+api/*/migrations/*.pyc
+
+# Static and media files
+api/staticfiles/
+api/media/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints/
